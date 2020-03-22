@@ -10,11 +10,11 @@ using SalesWebMvc.Models;
 
 namespace SalesWebMvc.Controllers
 {
-    public class DepartamentoesController : Controller
+    public class DepartamentosController : Controller
     {
         private readonly SalesWebMvcContext _context;
 
-        public DepartamentoesController(SalesWebMvcContext context)
+        public DepartamentosController(SalesWebMvcContext context)
         {
             _context = context;
         }
